@@ -1,0 +1,1 @@
+db.sensores.find({}, { _id: 0, sensor_id: 1 })

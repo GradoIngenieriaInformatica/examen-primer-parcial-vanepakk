@@ -1,0 +1,1 @@
+db.sensores.aggregate([{ $group: { _id: "$zona", promedio: { $avg: "$temperatura" } } }])
